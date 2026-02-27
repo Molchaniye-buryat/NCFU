@@ -36,3 +36,4 @@ int main()
 
     cout<<"Result y="<<y<<endl;
 }
+getchar();

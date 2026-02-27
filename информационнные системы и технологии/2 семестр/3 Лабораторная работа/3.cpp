@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
 	int arr[SIZE];
 	int cnt = 0;
 
-	cout<<"Enter "<<SIZE<<" integers:";
+	cout<<"Enter "<<SIZE<<" integers: ";
 	for (int i = 0; i < SIZE; i++) {
 		cin>>arr[i];
 		if (arr[i] % 2 == 0) {
@@ -18,8 +18,8 @@ int main(int argc, char const *argv[])
 	}
 	cout<<"Result: "<<cnt<<endl;
 }
-*/
 
+*/
 /*
 #include <iostream>
 #include <iomanip>

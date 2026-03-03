@@ -1,4 +1,4 @@
-/*
+
 #include <iostream>
 #include <cmath>
 
@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
 
 	cout<<"V = "<<*pV<<endl;
 }
-*/
+
 /*
 #include <iostream>
 
@@ -44,7 +44,7 @@ int main(int argc, char const *argv[])
 	cout<<"Min: "<<*minptr<<endl;
 }
 */
-
+/*
 #include <iostream>
 
 using namespace std;
@@ -62,7 +62,7 @@ int main(int argc, char const *argv[])
 	}
 }
 
-
+*/
 
 
 

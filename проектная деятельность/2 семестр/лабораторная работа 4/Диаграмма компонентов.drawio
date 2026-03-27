@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0" version="29.5.1">
+  <diagram name="Страница-1" id="wEa9bl1tx-dMjmXL_yn9">
+    <mxGraphModel dx="1628" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="760" width="520" x="150" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="СЕРВИС ПРОДАЖИ АВИАБИЛЕТОВ" vertex="1">
+          <mxGeometry height="70" width="520" x="150" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-13" edge="1" parent="1" source="0PtEtRpThdfS6-vgUFSi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0PtEtRpThdfS6-vgUFSi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Веб-интерфейс пользователя&lt;div&gt;(HTML/CSS/JS)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-14" edge="1" parent="1" source="0PtEtRpThdfS6-vgUFSi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="0PtEtRpThdfS6-vgUFSi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Административная панель&lt;div&gt;(HTML/CSS/JS)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-15" edge="1" parent="1" source="0PtEtRpThdfS6-vgUFSi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0PtEtRpThdfS6-vgUFSi-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="330" />
+              <mxPoint x="240" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-16" edge="1" parent="1" source="0PtEtRpThdfS6-vgUFSi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0PtEtRpThdfS6-vgUFSi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-17" edge="1" parent="1" source="0PtEtRpThdfS6-vgUFSi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="0PtEtRpThdfS6-vgUFSi-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="330" />
+              <mxPoint x="580" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API шлюз&lt;div&gt;(EXE/сервис)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Сервис поиска рейсов&lt;div&gt;(EXE)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-18" edge="1" parent="1" source="0PtEtRpThdfS6-vgUFSi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="0PtEtRpThdfS6-vgUFSi-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="510" />
+              <mxPoint x="240" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-19" edge="1" parent="1" source="0PtEtRpThdfS6-vgUFSi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0PtEtRpThdfS6-vgUFSi-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-20" edge="1" parent="1" source="0PtEtRpThdfS6-vgUFSi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0PtEtRpThdfS6-vgUFSi-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="510" />
+              <mxPoint x="580" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Сервис бронирования и покупки&lt;div&gt;(EXE)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Сервис управления рейсами&lt;div&gt;(EXE)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Платежный шлюз (внешний)" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="База данных&lt;div&gt;(MySQL)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="0PtEtRpThdfS6-vgUFSi-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Сервис уведомлений&lt;div&gt;(EXE/сервис)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="660" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

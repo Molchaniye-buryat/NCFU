@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OPR/128.0.0.0" version="29.5.1">
+  <diagram name="Страница-1" id="i0MnlCfGDtCMrA8xF4_3">
+    <mxGraphModel dx="2030" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Пассажир&lt;div&gt;(Actor)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Веб-интерфейс&lt;div&gt;(Frontend)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API-шлюз&lt;div&gt;(APIGateway)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BookingService" vertex="1">
+          <mxGeometry height="60" width="120" x="670" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Searchservice" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PaymentGateway" vertex="1">
+          <mxGeometry height="60" width="120" x="830" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QFSEcr_FpZf3aV6JBUkk-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="30" y="840" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-10" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="840" as="sourcePoint" />
+            <mxPoint x="209.5" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Ввод параметров">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="30" y="200" as="sourcePoint" />
+            <mxPoint x="210" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-12" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="379.5" y="600" as="sourcePoint" />
+            <mxPoint x="379.5" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-13" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="840" as="sourcePoint" />
+            <mxPoint x="570" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="search()">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="230" as="sourcePoint" />
+            <mxPoint x="380" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="findFights()">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="260" as="sourcePoint" />
+            <mxPoint x="570" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-16" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="830" as="sourcePoint" />
+            <mxPoint x="729.5" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="SQL query">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="290" as="sourcePoint" />
+            <mxPoint x="730" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="330" as="sourcePoint" />
+            <mxPoint x="30" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Выбор рейса">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="30" y="380" as="sourcePoint" />
+            <mxPoint x="210" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="book()">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="410" as="sourcePoint" />
+            <mxPoint x="380" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="processBooking()">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="440" as="sourcePoint" />
+            <mxPoint x="730" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-25" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="890" y="830" as="sourcePoint" />
+            <mxPoint x="889.5" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="checkAvailability()">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="490" as="sourcePoint" />
+            <mxPoint x="570" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="510" as="sourcePoint" />
+            <mxPoint x="730" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="createReservation()">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="550" as="sourcePoint" />
+            <mxPoint x="570" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="570" as="sourcePoint" />
+            <mxPoint x="730" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="processPayment()">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="610" as="sourcePoint" />
+            <mxPoint x="890" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-32" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="840" as="sourcePoint" />
+            <mxPoint x="379.5" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="890" y="630" as="sourcePoint" />
+            <mxPoint x="730" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="confirmBooking()">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="670" as="sourcePoint" />
+            <mxPoint x="570" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="690" as="sourcePoint" />
+            <mxPoint x="730" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-36" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="740" as="sourcePoint" />
+            <mxPoint x="30" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFSEcr_FpZf3aV6JBUkk-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[успех]" vertex="1">
+          <mxGeometry height="30" width="60" x="30" y="750" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

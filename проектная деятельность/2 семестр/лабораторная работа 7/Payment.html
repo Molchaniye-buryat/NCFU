@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyTickets — Оплата</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="screen">
+        <div class="logo">
+            <h1>SkyTickets</h1>
+            <p>Сервис продажи авиабилетов</p>
+        </div>
+
+        <div class="form-title">ОПЛАТА</div>
+
+        <div class="total-price">
+            Итого к оплате: 10 900 ₽
+        </div>
+
+        <div class="payment-block">
+            <div class="payment-title">Данные банковской карты</div>
+
+            <div class="input-group">
+                <label>Номер карты</label>
+                <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19">
+            </div>
+
+            <div class="row-group">
+                <div class="input-group half">
+                    <label>Срок (MM/YY)</label>
+                    <input type="text" id="cardDate" placeholder="MM/YY" maxlength="5">
+                </div>
+                <div class="input-group half">
+                    <label>CVV</label>
+                    <input type="text" id="cardCvv" placeholder="123" maxlength="3" style="width: 80px;">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Владелец карты</label>
+                <input type="text" id="cardHolder" placeholder="IVAN IVANOV">
+            </div>
+        </div>
+
+        <div id="errorMessage" style="color: red; text-align: center; margin-bottom: 15px; display: none;">
+            ❌ Проверьте правильность введённых данных
+        </div>
+
+        <div class="button-row">
+            <a href="Passengers.html">
+                <button class="btn-back">← Назад</button>
+            </a>
+            <button class="btn-next" onclick="checkPayment()">Оплатить →</button>
+        </div>
+    </div>
+
+    <script>
+        function checkPayment() {
+            let cardNumber = document.getElementById('cardNumber').value;
+            let cardDate = document.getElementById('cardDate').value;
+            let cardCvv = document.getElementById('cardCvv').value;
+            let cardHolder = document.getElementById('cardHolder').value;
+
+            let cleanCardNumber = cardNumber.replace(/\s/g, '');
+
+            let isCardNumberValid = /^\d{16}$/.test(cleanCardNumber);
+
+            let isDateValid = /^(0[1-9]|1[0-2])\/\d{2}$/.test(cardDate);
+            
+            let isCvvValid = /^\d{3}$/.test(cardCvv);
+
+            let isHolderValid = cardHolder.trim().length > 0;
+
+            console.log('Номер карты (очищенный):', cleanCardNumber);
+            console.log('Номер карты валиден:', isCardNumberValid);
+            console.log('Срок валиден:', isDateValid);
+            console.log('CVV валиден:', isCvvValid);
+            console.log('Владелец валиден:', isHolderValid);
+
+            if (isCardNumberValid && isDateValid && isCvvValid && isHolderValid) {
+                window.location.href = 'Success.html';
+            } else {
+                let errorDiv = document.getElementById('errorMessage');
+                errorDiv.style.display = 'block';
+                setTimeout(function() {
+                    window.location.href = 'Error.html';
+                }, 1500);
+            }
+        }
+    </script>
+</body>
+</html>

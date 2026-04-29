@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="ix5VDgQgejCAcJqVIIpp">
+    <mxGraphModel dx="1372" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D771caZ5fO1mf9pB2qu4-1" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.frame;dx=10;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="640" width="451" x="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D771caZ5fO1mf9pB2qu4-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="430" width="370" x="250.5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D771caZ5fO1mf9pB2qu4-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ошибка&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="260" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D771caZ5fO1mf9pB2qu4-4" parent="1" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="395.5" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="D771caZ5fO1mf9pB2qu4-5" parent="1" style="shape=cross;whiteSpace=wrap;html=1;rotation=-45;" value="" vertex="1">
+          <mxGeometry height="60" width="58.25" x="406.37" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="D771caZ5fO1mf9pB2qu4-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Оплата не прошла!&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="370.49" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="D771caZ5fO1mf9pB2qu4-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Причина: Неверный CVV-код&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="170" x="270" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="D771caZ5fO1mf9pB2qu4-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Пожалуйста, проверьте данные карты и попробуйте снова" vertex="1">
+          <mxGeometry height="30" width="330" x="270" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="D771caZ5fO1mf9pB2qu4-11" parent="1" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Попробовать снова&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="250.5" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="D771caZ5fO1mf9pB2qu4-12" parent="1" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;На главную&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="119.5" x="501" y="585" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

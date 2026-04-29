@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="rfiubl33Ujvm9A5B3B0R">
+    <mxGraphModel dx="1372" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-cr_o1tbRdGC1ccgYq23-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="460" width="450" x="200" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-cr_o1tbRdGC1ccgYq23-1" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.frame;dx=10;whiteSpace=wrap;" value="Экран 1: Главный/Поиск" vertex="1">
+          <mxGeometry height="580" width="520" x="165" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-cr_o1tbRdGC1ccgYq23-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[Название сервиса]" vertex="1">
+          <mxGeometry height="30" width="120" x="365" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-cr_o1tbRdGC1ccgYq23-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Сервис по продаже авиабилетов&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="280" x="285" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-cr_o1tbRdGC1ccgYq23-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Откуда:" vertex="1">
+          <mxGeometry height="30" width="60" x="225" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="-cr_o1tbRdGC1ccgYq23-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Куда:" vertex="1">
+          <mxGeometry height="30" width="60" x="414" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="-cr_o1tbRdGC1ccgYq23-21" parent="1" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=center;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Моксва&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="110" x="225" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-cr_o1tbRdGC1ccgYq23-22" parent="1" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=center;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Санкт-Петербург&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="126" x="414" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-cr_o1tbRdGC1ccgYq23-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Дата вылета:" vertex="1">
+          <mxGeometry height="30" width="90" x="225" y="406" as="geometry" />
+        </mxCell>
+        <mxCell id="-cr_o1tbRdGC1ccgYq23-24" parent="1" style="strokeWidth=1;html=1;shadow=0;dashed=0;shape=mxgraph.ios.iTextInput;strokeColor=#444444;buttonText=;fontSize=8;whiteSpace=wrap;align=center;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;29.05.2026&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="110" x="225" y="436" as="geometry" />
+        </mxCell>
+        <mxCell id="-cr_o1tbRdGC1ccgYq23-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Найти&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="400" x="225" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="-cr_o1tbRdGC1ccgYq23-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Поиск авиабилетов&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="295" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

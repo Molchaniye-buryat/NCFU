@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="xxhVTo0SLtZb3a5ecse-">
+    <mxGraphModel dx="1372" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_U71JPbbvCpPc-VvTRBq-8" edge="1" parent="1" source="_U71JPbbvCpPc-VvTRBq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_U71JPbbvCpPc-VvTRBq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_U71JPbbvCpPc-VvTRBq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Экран 1&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Главный/Поиск&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="130" x="100" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_U71JPbbvCpPc-VvTRBq-9" edge="1" parent="1" source="_U71JPbbvCpPc-VvTRBq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_U71JPbbvCpPc-VvTRBq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_U71JPbbvCpPc-VvTRBq-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Экран 2&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Список рейсов&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="330" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_U71JPbbvCpPc-VvTRBq-10" edge="1" parent="1" source="_U71JPbbvCpPc-VvTRBq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_U71JPbbvCpPc-VvTRBq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_U71JPbbvCpPc-VvTRBq-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Экран 3&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Данные пассажиров&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="560" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_U71JPbbvCpPc-VvTRBq-12" edge="1" parent="1" source="_U71JPbbvCpPc-VvTRBq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="_U71JPbbvCpPc-VvTRBq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_U71JPbbvCpPc-VvTRBq-13" edge="1" parent="1" source="_U71JPbbvCpPc-VvTRBq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="_U71JPbbvCpPc-VvTRBq-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="330" />
+              <mxPoint x="170" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_U71JPbbvCpPc-VvTRBq-14" connectable="0" parent="_U71JPbbvCpPc-VvTRBq-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(При ошибке)" vertex="1">
+          <mxGeometry relative="1" x="0.0364" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_U71JPbbvCpPc-VvTRBq-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Экран 4&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Оплата&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="560" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_U71JPbbvCpPc-VvTRBq-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Экран 5&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Успех&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="150" x="330" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_U71JPbbvCpPc-VvTRBq-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Экран 6&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Ошибка&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="100" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

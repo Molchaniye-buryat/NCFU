@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="DJCXAaXqRSs0_7ucz4Fp">
+    <mxGraphModel dx="1372" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TpNveoysm60gWvqA8QUg-7" edge="1" parent="1" source="TpNveoysm60gWvqA8QUg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TpNveoysm60gWvqA8QUg-2" value="Кнопка &quot;Найти&quot;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TpNveoysm60gWvqA8QUg-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Search.html" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TpNveoysm60gWvqA8QUg-8" edge="1" parent="1" source="TpNveoysm60gWvqA8QUg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TpNveoysm60gWvqA8QUg-3" value="Кнопка &quot;Выбрать&quot;&amp;nbsp; у рейса SU 1234&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TpNveoysm60gWvqA8QUg-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="List.html" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="TpNveoysm60gWvqA8QUg-10" edge="1" parent="1" source="TpNveoysm60gWvqA8QUg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TpNveoysm60gWvqA8QUg-9" value="Кнопка &quot;Перейти к оплате&quot;&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TpNveoysm60gWvqA8QUg-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Passengers.html" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="TpNveoysm60gWvqA8QUg-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Success.html" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="TpNveoysm60gWvqA8QUg-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Error.html" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="TpNveoysm60gWvqA8QUg-11" edge="1" parent="1" source="TpNveoysm60gWvqA8QUg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TpNveoysm60gWvqA8QUg-4" value="Данные карты корректны">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TpNveoysm60gWvqA8QUg-12" edge="1" parent="1" source="TpNveoysm60gWvqA8QUg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TpNveoysm60gWvqA8QUg-6" value="Данные карты некорректны">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="740" />
+              <mxPoint x="190" y="740" />
+              <mxPoint x="190" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TpNveoysm60gWvqA8QUg-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Payment.html" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="490" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

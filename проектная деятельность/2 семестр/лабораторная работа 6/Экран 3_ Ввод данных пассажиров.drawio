@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="3aL2D7_zZXbcLjRMjhQg">
+    <mxGraphModel dx="1372" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aVExBWhiDN7kxD1NeXCU-1" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.frame;dx=10;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="650" width="470" x="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aVExBWhiDN7kxD1NeXCU-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="465" width="389" x="250.5" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="aVExBWhiDN7kxD1NeXCU-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Данные пассажиров&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="240" x="250.5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aVExBWhiDN7kxD1NeXCU-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Рейс SU 1234 | Москва -&amp;gt; Санкт-Петербург | 29.05.2026 | 8:00" vertex="1">
+          <mxGeometry height="30" width="360" x="250.5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="aVExBWhiDN7kxD1NeXCU-7" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="110" width="350" x="270" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="aVExBWhiDN7kxD1NeXCU-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Пассажир 1:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ФИО: [_______________________]&lt;/div&gt;&lt;div&gt;Серия паспорта: [____] Номер: [________]&lt;/div&gt;&lt;div&gt;Дата рождения: [__.__.____]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="240" x="290" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aVExBWhiDN7kxD1NeXCU-9" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="110" width="350" x="270" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="aVExBWhiDN7kxD1NeXCU-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Пассажир 2:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ФИО: [_______________________]&lt;/div&gt;&lt;div&gt;Серия паспорта: [____] Номер: [________]&lt;/div&gt;&lt;div&gt;Дата рождения: [__.__.____]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="240" x="290" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="aVExBWhiDN7kxD1NeXCU-11" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;" value="" vertex="1">
+          <mxGeometry height="110" width="350" x="270" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="aVExBWhiDN7kxD1NeXCU-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Контактные данные:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Email: [_______________________]&lt;/div&gt;&lt;div&gt;Телефон: [____________________]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="240" x="294" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="aVExBWhiDN7kxD1NeXCU-13" parent="1" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Назад&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="91" x="250.5" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="aVExBWhiDN7kxD1NeXCU-14" parent="1" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Перейти к оплате&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="260" x="380" y="600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

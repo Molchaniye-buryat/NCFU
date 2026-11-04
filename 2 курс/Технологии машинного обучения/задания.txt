@@ -1,0 +1,2 @@
+Лабы по технологиям машинного обучения:
+https://github.com/vberezina/machine-learning
